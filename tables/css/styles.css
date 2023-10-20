@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid light pink;
+    overflow: auto;
+    padding: 15px;
+}
+
+h1{
+    color: lightpink;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+
+    text-decoration: none;
+    background-color: light pink;
+    border: 2px solid light pink;
+    border-radius: 10px;
+    color: light grey;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: lightpink;
+    background-color: light grey;
+}

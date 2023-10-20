@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../tables/css/styles.css">
+    <title>tables</title>
+    <style>
+        table{
+            width: 95%;
+            margin: 20px auto;
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid light pink;
+            padding: 5px;
+        }
+
+        th{
+            color: light grey;
+            background-color: lightpink;
+        }
+
+        tr:hover{
+            background-color:rgb(230, 194, 199);
+        }
+
+        td{
+            text-align: center;
+            min-height: 25px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class= "container">
+        <header>
+            <h1>Styling Tables</h1>
+    <nav>
+        <a href="index.html">Table Basics</a>
+        <a href="styling-tables.html">Styling Tables</a>
+        <a href="calendar.html">Creating a Calendar</a>
+    </nav>
+<h2>Styling Tables</h2>
+<table>
+    <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <th>7:00 am</th>
+        <td>School Work</td>
+        <td rowspan="7">CNA Job</td>
+        <td>School Work</td>
+        <td rowspan="7">CNA Job</td>
+        <td rowspan="7">CNA Job</td>
+    </tr>
+    <tr>
+        <th>8:00 am</th>
+        <td rowspan="2">Breakfast</td>
+        <td rowpsan="2">Breakfast</td>
+    </tr>
+    <tr>
+        <th>9:00 am</th>
+        <td rowspan="5">CNA Shift</td>
+    </tr>
+    <tr>
+        <th>10:00 am</th>
+        <td rowspan="5">CNA PM Shift</td>
+    </tr>
+    <tr>
+        <th>11:00 am</th>
+    </tr>
+    <tr>
+        <th>12:00 pm</th>
+    </tr>
+    <tr>
+        <th>1:00 pm</th>
+    </tr>
+    <tr>
+        <th>2:00 pm</th>
+        <td>Snack Break</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+   </tr>
+    <tr>
+        <th>3:00 pm</th>
+        <td>Get off Work/Rest</td>
+        <td rowspan="2">School Work</td>
+        <td rowspan="2">Return to work</td>
+        <td rowspan="2">School Work</td>
+        <td rowpsan="2">School Work</td>
+    </tr>
+    <tr>
+        <th>4:00pm</th>
+        <td>Start Cleaning</td>
+        <td>Hangout with Friends</td>
+    </tr>
+</table>
+</body>
+</html>
