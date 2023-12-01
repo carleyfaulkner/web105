@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Mystical, Elixers, Ingredients, Magical, Ancient, Potion, Remedies">
+    <title>Responsive Review Site</title>
+    <link rel="stylesheet" href="../css/styles.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Sacramento&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <style>
+    
+    table,
+        th,
+        td{
+            border:1px solid #ebecf1ff;
+            background-color: #eabdf2ff;
+            font-family: 'Sorts+Mill+Goudy';
+            color: white;
+        }
+
+        table{
+            margin:20px auto;
+        }
+
+        body{
+    background-color: #cebdf2ff;
+    font-family: 'Agbalumo';
+    line-height: 2;
+    font-size: large;
+}
+
+h1{
+    color:#ebecf1ff;
+    outline: 2px solid #eabdf2ff;
+    font-family: 'Sacramento';
+}
+
+
+
+nav{
+    text-align: center;
+    font-size: x-large;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #eabdf2ff;
+    padding: 5px 15px;
+    color:  #ebecf1ff;
+    border-radius: 10px;
+    border: 2px lightpink;
+    font-family: 'Cinzel';
+}
+
+nav a:hover{
+    background-color: white;
+    color:#eabdf2ff;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+justify-content: center;}
+
+.grid-container>div{
+    padding: 20px 0;
+    min-height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grid-container>div>img{
+    margin: 5px auto;
+    display: block;
+    cursor: pointer;
+    align-items: center;
+    width: 80%;
+  object-fit: cover;
+  border: 10px solid #eabdf2ff;
+  border-radius: 50%;
+}
+.text-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px; 
+        }
+
+
+ .text-box {
+     width: 30%; 
+    border: 2px solid #ebecf1ff; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border-radius: 8px; 
+    text-align: center;
+    color: white;
+    font-family: 'Sorts+Mill+Goudy';
+    background-color: #eabdf2ff;
+        }
+    
+.text-box p{
+    margin: 0;
+    line-height: 1.4;
+}
+
+.list-container {
+    
+            box-sizing:content-box;
+            padding: 20px;
+            border: 1px solid lightpink;
+            border-radius: 8px;
+            text-align: center;
+           justify-content: center;
+           background-color: pink;
+        }
+
+        .list-container ul {
+        list-style-type: circle;
+            padding: 0;
+            margin: 0;
+        }
+
+        .list-container li {
+            margin-bottom: 10px;
+            background-color: white;
+            font-family: 'Comfortaa';
+        }
+
+    h2{
+        font-size: small;
+        color: white;
+        font-family: 'Sacramento';
+    }
+
+    footer{
+        color: #ebecf1ff;
+    }
+
+   
+    
+
+</style> 
+
+</head>
+<body>
+    <header>
+        <h1>Customized Potions</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="customized-potions.html">Customized Potions</a>
+            <a href="spells-books-scrolls.html">Spell Books & Scrolls</a>
+            <a href="new-featured.html">New/Featured</a>
+            <a href="faq-feedback.html">FAQ/Feedback</a>
+        </nav>
+    </header>
+
+    <div class="Table">
+    <table width="80%">
+        <tr>
+            <th>POTIONS</th>
+            <th>Ingredients</th>
+            <th>Effects</th>
+            <th>Customer Review</th>
+        </tr>
+        <tr>
+            <th>Kicker Elixer</th>
+            <td>Starlight, Water, Stardust, Lavender, Caffeine
+        </td>
+            <td>Helps you take on the day and enhances positive emotions.</td>
+            <td rowspan="2">9.4/10 price- $70.7 for each potion</td>
+
+        </tr>
+        <tr>
+            <th>Relaxing Brew</th>
+            <td>Feather Extract, Spring Water, Ground Magical Rocks, Sugar, Dandelion leaf
+                </td>
+            <td>Helps you rest while adding a magical touch to your life. Also, help with positive dreams. </td>
+          
+            
+        </tr>
+        <tr>
+            <th>Magical Mist</th>
+            <td>Daisies, Lemon Balm, Seashell tear drops, A cup of water from the ocean</td>
+            <td>It helps restore energy and gives extra stamina.  </td>
+            <td>9.5/10 price-$40.46</td>
+        
+        </tr>
+        <tr>
+            <th>Ancient Essense</th>
+            <td>Rose Petals, Nectar, A leaf from a daisy, Three drop sof rain from the sky</td>
+            <td>It helps fight against chilly weather and helps you boost courage and confidence.  </td>
+            <td>10/10 price- $30.39</td>
+          
+        </tr>
+        </table>
+    </header>
+</div>
+
+
+<main>
+        <div class="grid-container">
+            <div><img src="../images/kicker-elixir.jpeg" alt="Kicker Elixer"></div>
+            <div><img src="../images/magical-mist.jpeg" alt="Magical Mist" style="height: 95%"></div>
+            <div><img src="../images/relaxing-brew.jpeg" alt="Relaxing Brew"></div>
+            <div><img src="../images/ancient-essense.jpeg" alt="Ancient Essence"></div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Carley Faulkner</p>
+    </footer>
+
+    <div class="text-container">
+        <div class="text-box">
+            <p>All our most popular potions are filled with amazing, enchanting ingredients. Each incorporates aspects of nature and other mystical things out there. Out of all the potions mentioned, each one takes up to three weeks to create due to the rarity of the ingredients. There are many things that take an exceptionally long time to get. </p>
+        </div>
+    <div class="text-box">
+        <p>  We choose to get the best products possible because our customers have gotten the best results from them. Please explore our collection of diverse potions that help with emotions and other everyday struggles. Each potion is blended with care, and we try to find the best ingredients possible for you.   </p>
+    </div>
+    <div class="text-box">
+        <p>  We have numerous potions that not only can boost your energy but also make you feel realized when needed.  All you must do is choose a potion that fits your preferences, experience the magical capabilities, and let magic fill your life with positive moments.   </p>
+    </div> 
+</body>
+     
+        
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Mystical, Elixers, Ingredients, Magical, Ancient, Potion, Remedies">
+    <title>Project Three</title>
+    <link rel="stylesheet" href="../css/styles.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Sacramento&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<script src="../change.js"></script>
+    <style>
+        body{
+    background-color: #cebdf2ff;
+    line-height: 2;
+    font-size: large;
+}
+
+h1{
+    color: #ebecf1ff;
+    outline: 2px solid #eabdf2ff;
+    font-family: 'Sacramento';
+    font-weight: bolder;
+}
+
+
+
+nav{
+    text-align: center;
+    font-size: x-large;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #eabdf2ff;
+    padding: 5px 15px;
+    color:  #ebecf1ff;
+    border-radius: 10px;
+    border: 2px #ebecf1ff;
+    font-family: 'Cinzel';
+}
+
+nav a:hover{
+background-color: #ebecf1ff;   
+color:#eabdf2ff;
+}
+
+
+        p{
+            margin: 0;
+    line-height: 1.4;
+        }
+
+    h2{
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    footer{
+        background-color: #eabdf2ff;
+        color: #ebecf1ff;
+    }
+ 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.grid-container>div{
+    padding: 20px 0;
+    min-height: 90px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.grid-container>div>img{
+    padding: 5px;
+    margin: 5px auto;
+    display: block;
+    cursor: pointer;
+width: 40%;
+border-radius: 50%;
+border: 10px solid #eabdf2ff;
+}
+
+#large{
+  padding: 2px;
+    border-radius: 50%;
+    width: 15%;
+    margin: 5px auto;
+    display: block;
+    border: 10px solid #eabdf2ff;
+background-color: #eabdf2ff;
+}
+
+main{
+    align-items: center;
+}
+.text-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px; 
+        }
+
+
+ .text-box {
+     width: 40%; 
+    border: 3px solid #ebecf1ff; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center;
+    color: #ebecf1ff;
+    font-family: 'Comfortaa';
+    background-color: #eabdf2ff;
+        }
+    
+.text-box p{
+    margin: 0;
+    line-height: 1.4;
+}
+
+    </style>  
+</head>
+<body>
+    
+        <h1>New/Featured</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="customized-potions.html">Customized Potions</a>
+            <a href="spells-books-scrolls.html">Spell Books & Scrolls</a>
+            <a href="new-featured.html">New/Featured</a>
+            <a href="faq-feedback.html">FAQ/Feedback</a>
+        </nav>
+<main>
+    <div class="grid-container">
+        <div><img src="../images/page-of-spell-book.png" alt="Page of Spellbook" onclick="change01()"></div>
+        <div><img src="../images/bundle-scrolls.png" alt="Scroll bundle" onclick="change02()"></div>
+        <div><img src="../images/group-potion.png" alt="Potion Group" onclick="change03()"></div>
+        <div><img src="../images/old-image-spellbook.png" alt="Old Image of SpellBook" onclick="change04()"></div>
+        <div><img src="../images/ingredients-potions.png" alt="Potion Ingredients" onclick="change05()"></div>
+    </div>
+    <div>
+        <img src="../images/old-image-spellbook.png" alt="Old Image of SpellBook" id="large">
+    </div>
+</main>
+
+<main>
+    <div class="text-container">
+        <div class="text-box">
+            <p>We are introducing our newest gift baskets that enhance the experience of being magical. We are offering a basket of not just one product, but 6 for the price of one potion. In our baskets, we include- three potions, two scrolls, and one spell book. It is perfect for the holiday season, and it can be seen as one of the most bought offers we have. If you already own our commodities, then this gift offers six different gifts for your friends. Treat yourself and your loved ones to our special collection of our best items. Not only are they filled with two scrolls, but they also include three top-rated potions. Whether it is a gift for yourself or for your friends, this set is amazing for mystical experiences.   </p>
+        </div>
+    <div class="text-box">
+        <p>Our workers handpicked these items to go well together. You can also submit a form in the FAQ that explains the specific potions you want that fit your preference. If necessary, you can also send a gift basic to a loved one where you specify the exact note you want them to receive. It is more than just a gift, but it gives magical memories as well. I hope you feel refreshed with all our best products and leave a review giving any notes for future options. We are also giving one extra spell book for every extra gift basket bought on top of the first one. We want to ensure you are equipped with all the mystical necessities and magical remedies that will hope you become the best you.    </p>
+    </div>
+    </div>
+
+   
+</main>
+        
+<footer>
+    <p>&copy; 2023 Carley Faulkner</p>
+</footer>
+</body>
+</html>
